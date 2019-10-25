@@ -13,8 +13,8 @@ edition = "2018"
 proc_macro = true
 
 [dependencies]
-anyhow = "1"
-itertools = "0.8"
+anyhow = { git = "https://github.com/mesalock-linux/anyhow-sgx", default-features = false, features = ["std"] } # std only, no mesalock_sgx
+itertools = { version = "0.8", default-features = false }
 proc-macro2 = "1"
 quote = "1"
 syn = { version = "1", features = [ "extra-traits" ] }
