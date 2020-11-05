@@ -16,7 +16,7 @@ test = false
 [dependencies]
 bytes = { git = "https://github.com/mesalock-linux/bytes-sgx" }
 prost = { git = "https://github.com/mesalock-linux/prost-sgx" }
-sgx_tstd = { rev = "v1.1.2", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
+sgx_tstd = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
 [features]
 default = ["mesalock_sgx"]
