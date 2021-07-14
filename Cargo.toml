@@ -37,7 +37,7 @@ appveyor = { repository = "danburkert/prost" }
 bench = false
 
 [features]
-default = ["prost-derive", "mesalock_sgx"]
+default = ["mesalock_sgx"]
 no-recursion-limit = []
 mesalock_sgx = ["sgx_tstd"]
 
